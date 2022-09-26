@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="bar">
+            <ul>
+                <li><img src="images/facebookIcon.png" alt="FB Logo"><a href="#">粉絲團</a></li>
+                <li><img src="images/twitterIcon.png" alt="Twiiter Logo"><a href="#">聯絡我們</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1><a href="#">HexSchool</a></h1>
+            <ul class="menu">
+                <li><a href="#">首頁</a> </li>
+                <li><a href="#">產品介紹</a> </li>
+                <li><a href="#">聯絡我們</a> </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="cover">
+                <p class="slogan">六角學院<br>讓您奠定良好的前端基礎</p>
+            </div>
+            <div class="course">
+                <div class="course-item">
+                    <img class="center-img" src="images/html.png" alt="html的logo">
+                    <h2>Html 5 基礎教學</h2>
+                    <p>主流前端網佔設計的基礎就在六角學院，在這裡不再是填鴨式教學，而是透過實際的範例，了解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方式。</p>
+                </div>
+                <div class="course-item">
+                    <img class="center-img" src="images/rwd.png" alt="RWD的logo">
+                    <h2>響應式網站設計</h2>
+                    <p>響應式網站設計(Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式網站開發方式，讓學生了解行動版的開發技巧。</p>
+                </div>
+                <div class="course-item">
+                    <img class="center-img" src="images/jQuery.png" alt="jQuery的logo">
+                    <h2>jQuery 實戰教學</h2>                  
+                        <ul>
+                        本課程有以下特色：
+                        <li>瞭解變數的使用方法</li>
+                        <li>學習並操作DOM</li>
+                        <li>學習基本數學運算方法</li>
+                        <li>套件的操作及運用</li>
+                    </ul>
+                </div> 
+            </div>
+            <h2 class="table-title">線上及實體課程的差異</h2>
+            <table class="compare-table">
+                <tr>
+                    <!-- th預設粗體置中 如果有用css reset的話會只剩置中 -->
+                    <th>項目</th>
+                    <th>Hex School 線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td class="better">較低</td>
+                    <td class="better">較低</td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td>較低</td>
+                    <td class="better">很好</td>
+                </tr>
+                <tr>
+                    <td>Code review</td>
+                    <td class="better">有</td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td class="better">普通</td>
+                    <td class="better">普通</td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次複習</td>
+                    <td class="better">可</td>
+                    <td class="better">可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td class="better">有</td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+
+            <form class="questionnaire" action="index.html">
+                <h2 class="questionnaire-title">
+                    對我們課程有興趣嗎？
+                    歡迎留下您的資料
+                </h2>
+                <div class="questionnaire-content">
+                    <textarea name="remark" id="remark" placeholder="有任何問題都可以在此詢問我們！" cols="50" rows="10"></textarea>
+                    <div class="questionnaire-information">
+                        <h3>姓名</h3>
+                        <input type="text" name="person" placeholder="請輸入姓名">
+                        <h3>手機號碼</h3>
+                        <input type="tel" name="phone" placeholder="格式 : 09XX-XXX-XXX" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                        <h3>電子郵件</h3>
+                        <input type="mail" name="mail" placeholder="請輸入e-mail">
+                    </div>
+                </div>
+                <input class="submit-btn" type="submit" value="送出">
+            </form>
+        </div>
+        <div class="footer">
+            <img src="images/footerLogo.png" alt="footerLogo">
+            <ul>
+                <li>聯絡我們： <a href="mailto:hexschool@gmail.com">hexschool@gmail.com</a> </li>
+                <li>電話：<a href="tel:+886-912-345-678">0912-345-678</a> </a> </li>
+
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
