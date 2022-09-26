@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 以上為CSS reset的部分 */
+
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	font-family: "微軟正黑體";
+}
+
+.main a{
+	text-decoration: none;
+}
+
+.bar{
+	background-color: rgba(192, 192, 192);
+}
+
+.bar ul{
+	display: flex;
+	justify-content: right;
+	margin: 0px 16px;
+}
+
+.bar li{
+	display: flex;
+	align-items: center;
+}
+.bar img{
+	height: 16px;
+}
+.bar a{
+	padding: 3px 0px;
+	color: black;
+}
+.bar a:hover{
+	font-weight: bold;
+}
+h1 a{
+	
+	display: block;
+	width: 224px;
+	height: 50px;
+	background-image: url("../images/logo.png");
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li a{
+	padding: 10px 20px;
+	color: rgb(30, 80, 35);
+}
+
+.menu li a:hover{
+	font-weight: bold;
+	border-bottom: 2px solid;
+}
+
+.cover{
+	background-image: url("../images/banner.png");
+	height: 346px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+.slogan{
+	color: white;
+	font-size: 36px;
+	padding: 40px;
+	background-color: rgb(146, 146, 146,0.2);
+}
+.center-img{
+	display:block;
+	margin:auto;
+}
+.content .course{
+	display: flex;
+	justify-content: space-around;
+}
+
+.content .course .course-item{
+	border: 1px solid slategrey;
+	width: 300px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 2px 3px 0px slategrey;
+	margin-bottom: 20px;
+}
+.course-item:hover{
+	box-shadow: 5px 5px 0px 0px slategrey;
+}
+
+.content .course .course-item h2{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.content .course .course-item p{
+
+	padding: 10px;
+	text-align: justify;
+}
+.content .course .course-item ul{
+	line-height: 1.5;
+	padding: 10px;
+	list-style:disc;
+	list-style-position:inside;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.compare-table{
+	margin: 0px auto 20px auto;
+}
+
+.compare-table th, .compare-table td{
+	border-top:1px solid rgb(190, 190, 190);
+	border-bottom:1px solid rgb(190, 190, 190);
+	padding:10px 30px;
+}
+
+.compare-table th{
+	background-color: rgb(230, 230, 230);
+	font-weight: bold;
+	text-align: start;
+}
+
+.compare-table .better{
+	color:rgb(70, 175, 130);
+}
+
+.questionnaire{
+	padding: 20px;
+	background: linear-gradient(#00644B,#009771);
+	position: relative;
+}
+.questionnaire-title{
+	color: white;
+}
+.questionnaire-content{
+	display: flex;
+	justify-content: space-around;
+}
+
+.questionnaire-content textarea{
+	min-height: 150px;
+	min-width: 300px;
+}
+
+.questionnaire-information h3{
+	color: white;
+}
+.questionnaire-information input{
+	margin: 5px 0px;
+	width: 400px;
+}
+.submit-btn{
+	width: 100px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+}
+.footer{
+	padding: 10px 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer a{
+	color: firebrick;
+}
+.footer a:hover{
+	font-weight: bold;
+}
